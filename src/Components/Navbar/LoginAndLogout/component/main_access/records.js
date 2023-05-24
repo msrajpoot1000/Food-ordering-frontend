@@ -21,7 +21,7 @@ const Records = () => {
         
         if (user.email == "manish" && user.password == "manish") {
             alert("Yes you are authorozed person and You able to see records");
-             axios.get('http://localhost:5000/users-record')
+             axios.get('https://food-ordering-backend5.onrender.com/users-record')
             .then(res => {
                 setItem(res.data)
                 console.log(res.data)
