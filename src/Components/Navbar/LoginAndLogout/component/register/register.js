@@ -95,7 +95,7 @@ const Register = () => {
             console.log(ValidatePassword(password))
             if (name && email && ValidateEmail(email) && password && ValidatePassword(password) && reEnterPassword && (password === reEnterPassword)) {
                 // alert("i complete verify");
-                axios.post("http://localhost:5000/register", user)
+                axios.post("https://food-ordering-backend5.onrender.com/register", user)
                     .then(res => {
                         alert(res.data.message)
                         navigate("/login");
