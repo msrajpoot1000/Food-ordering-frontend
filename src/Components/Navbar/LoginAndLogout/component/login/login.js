@@ -22,7 +22,7 @@ const Login = ({ setLoginUser }) => {
     }
 
     const login = async ()=> {
-        axios.post('http://localhost:5000/login',await user)
+        axios.post('https://food-ordering-backend5.onrender.com/login',await user)
             .then(res => {
                 alert(res.data.message)
                 const result = res.data.user;
