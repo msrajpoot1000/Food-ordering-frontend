@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    margin: 0px;
+}
+
+
+.Head_nav {
+    /* border: 2px solid red; */
+}
+
+.NavLink,
+.dropDownItem {
+    font-weight: 700;
+    color: rgb(251 88 73);
+    letter-spacing: 2px;
+    margin-left: 30px;
+    /* width: 300px; */
+
+}
+
+@media screen and (min-width: 300px) {
+    .image {
+        width: 70%;
+        height: 70%;
+
+    }
+}
+
+@media screen and (min-width: 271px) {
+    .image {
+        width: 50%;
+        height: 50%;
+
+    }
+}
+@media screen and (min-width: 992px) {
+    .login{
+    display:none;
+}
+
+}
+
+
+.dropDown {
+    /* color: rgb(251 88 73); */
+    /* background-color: yellow; */
+
+
+}
+
+.dropDownItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin:4px;
+    padding: 4px;
+    border: 1px solid red;
+    background-color: yellow;
+    border:3px solid black;
+    border-radius: 10px;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.login .active{
+    border: 1px solid red;
+    font-style: normal;
+    color: green;
+    /* background-color: blue; */
+}
+
+.Navbar{
+ display: grid;
+  grid-template-columns:85% 15%;
+  grid-column: 2;
+ color: 1px solid green;
+ border: 2px solid rgb(251 88 73);
+}
+.Section1_1{
+ 
+}
+
+.Section1_2{
+display: flex;
+align-items: center;
+justify-content: center;
+width:100%;
+}
+@media screen and (max-width: 991px) {
+    .Section1_2{
+        display: none;
+
+    }
+    .Navbar{
+        grid-template-columns:100% 0vw;
+    }
+
+
+
+}
+.Navbar{
+ display: grid;
+  grid-template-columns:85% 15%;
+  grid-column: 2;
+ color: 1px solid green;
+ font-family: 'Kanit', sans-serif;
+font-family: 'Oswald', sans-serif;
+}
+.Section1_1{
+ 
+}
+
+.Section1_2{
+display: flex;
+align-items: center;
+justify-content: center;
+width:100%;
+}
+@media screen and (max-width: 991px) {
+    .Section1_2{
+        display: none;
+
+    }
+    .Navbar{
+        grid-template-columns:100% 0vw;
+    }
+    .login{
+        /* display: none; */
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .Ex_login{
+        display: none;
+    }
+}
+.Inlogin{
+    border:2px solid black;
+    /* background-color:rgb(251 88 73);  */
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+
+     /* 
+    color:black;
+    font-weight: bold;  */
+}
+
+
+
+
+
+
+
+
+
+
+

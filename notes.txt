@@ -1,0 +1,10 @@
+install bootstras 
+=> npm install react-bootstrap bootstrap
+
+use import elemt in react-bootstrap
+or 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+in section 3 we install owl carousel
+=>
+npm install react-owl-carousel --save  
